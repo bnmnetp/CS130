@@ -1,0 +1,11 @@
+# Site settings
+title: Internet Programming
+email: bmiller@luther.edu
+description: "Notes and Syllabus for Fundamentals of Web Programming"
+baseurl: "http://bnmnetp.github.io/CS130/"
+url: "http://reputablejournal.com"
+twitter_username: bnmnetp
+github_username:  bnmnetp
+
+# Build settings
+permalink: pretty
