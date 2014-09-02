@@ -137,9 +137,9 @@ with one other person on the mid-term.
 Grading
 -------
 
-    30%   Midterm Mashup
+    30%   Final Mashup
     30%   Homework Assignments
-    30%   Final Project
+    30%   Weekly Quizzes
     10%   Class participation
 
 The grading scale is:
