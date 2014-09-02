@@ -10,7 +10,7 @@ CS-130 Fundamentals of Web Programming
 Contact
 =======
 
-Brad | Miller 
+Brad Miller  |    
 ----- | ----
 Office | Olin, 321
 email | bmiller@luther.edu\
