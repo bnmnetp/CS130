@@ -7,15 +7,17 @@ permalink: /syllabus/
 CS-130 Fundamentals of Web Programming
 ======================================
 
-Instructor
-==========
+Contact
+=======
 
-Brad Miller\
-Olin, 321\
-email: bmiller@luther.edu\
-Skype: bonelake\
-Google+\
-Piazza: https://piazza.com/luther/fall2014/cs365
+Brad | Miller 
+----- | ----
+Office | Olin, 321
+email | bmiller@luther.edu\
+Skype | bonelake\
+Google+ | millbr02
+Piazza | https://piazza.com/luther/fall2014/cs365
+
 
 Office Hours
 ============
