@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Goals for Week of Sept 7"
+date:   2014-09-07 16:10:28
+categories: goals
+---
+
+The goals for this first full week of classes are as follows:
+
+### Monday:
+
+* Continue our discussion of HTML adding lists and tables to our repertoire of things we know. We will also introduce Semantic tags as they will be useful later in the week. We definitely don't know every HTML tag just yet, but the remaining tags can be left until a bit later.
+
+* You should complete all of the sections in the HTML chapter.
+
+### Wednesday
+
+* Wednesday we'll talk about how to publish "in the cloud" Wednesday will be a real get your hands dirty day as we will create github accounts and learn how to edit some html outside the browser.
+
+### Friday
+
+* We'll complete whatever is left over from Monday and Wednesay and then introduce CSS
