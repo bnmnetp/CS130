@@ -9,10 +9,17 @@ categories:
 
 * email verification for github
 * CSS More on Matching
+* Make a web page that represents your todo list.  Your todo list must have the following:
+  * At least 10 items
+  * Some items must be high, medium, and low priority.  The different items should display differently to distinguish their priority
+  * Some items should be complete, these items should have a line through them.
+  * Save your file as ``todo.html``  Your style rules should be in ``todo.css``  Sync this to github.
+
 
 ### Wednesday
 
 * CSS Changing your page Layout
+* Your todo list project is due today.
 
 ### Friday
 
