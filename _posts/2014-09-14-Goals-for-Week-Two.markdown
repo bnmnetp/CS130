@@ -20,4 +20,4 @@ categories:
 * Quiz 1  HTML and CSS
 
 
-Note:  In doing some searching it seems that you must have a verified email address in order for github pages to automatically update after you push.  `This link  <https://help.github.com/articles/verifying-your-email-address>`_  Tells you how to verify your email address if you did not get the originial verification email.
+Note:  In doing some searching it seems that you must have a verified email address in order for github pages to automatically update after you push.  [This link](https://help.github.com/articles/verifying-your-email-address)  Tells you how to verify your email address if you did not get the originial verification email.

@@ -1,7 +1,7 @@
 # Site settings
-title: Internet Programming
+title: Fundamentals of Web Development
 email: bmiller@luther.edu
-description: "Notes and Syllabus for Fundamentals of Web Programming"
+description: "Notes and Syllabus for Fundamentals of Web Development"
 baseurl: "http://bnmnetp.github.io/CS130/"
 url: "http://reputablejournal.com"
 twitter_username: bnmnetp
