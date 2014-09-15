@@ -13,7 +13,9 @@ categories:
   * At least 10 items
   * Some items must be high, medium, and low priority.  The different items should display differently to distinguish their priority
   * Some items should be complete, these items should have a line through them.
+  * for bonus points, see if you can change the style of the list to display a checkmark when the task is complete.
   * Save your file as ``todo.html``  Your style rules should be in ``todo.css``  Sync this to github.
+  * Hint:  Don't be afraid to use [w3schools.com](www.w3schools.com) as an additional reference.
 
 
 ### Wednesday
