@@ -12,7 +12,7 @@ categories:
 
 ### Wednesday
 
-* CSS Chaning your page Layout
+* CSS Changing your page Layout
 
 ### Friday
 
