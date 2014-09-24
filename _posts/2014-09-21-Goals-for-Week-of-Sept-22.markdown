@@ -13,6 +13,8 @@ categories:
 ## Wednesday
 
 * Full Page Layout
+* Menu Example [Save This](http://reputablejournal.com/CS130/menuexample.html)  Save this to a file, and we will 
+work on editing it together as a class.
 * Work on New Homepage
 
 ## Friday
