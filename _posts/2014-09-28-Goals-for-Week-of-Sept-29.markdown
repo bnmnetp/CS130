@@ -20,4 +20,10 @@ categories:
 ### Friday
 
 * A first full application
-* Javascript basics quiz
+* Begin work on the Todo App
+  * Create Basic interface:
+    * title
+    * A container for a list of items with a checkbox on the left
+    * A text entry box and button to add a new task
+
+  * For Monday Add Javascript to the button so that when you type a new task into the text entry box it will appear
