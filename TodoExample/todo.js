@@ -33,19 +33,35 @@ localSave = function() {
     localStorage.setItem("todoDatabase",JSON.stringify(res))
 }
 
-// You need to finish writing this function
+
 // Called from window.onload  -- see the end of the html file
 //
 restoreTasks = function() {
   allTasks = JSON.parse(localStorage.getItem('todoDatabase'))
-  taskList = document.querySelector("#busylist");
   for(i = 0; i < allTasks.length; i++) {
-      // Add your code here to recreate the task list
-      // note that allTasks[i] will contain the text
-      // for the next task you want to add to your HTML
-      // list.  -- Note also that this is very similar to what
-      // is done in the addTask function.
+      insertTaskInTree(allTasks[i],"Medium");
   }
+}
+
+
+// Called from addTask AND restoreTasks
+insertTaskInTree = function(taskText, priorityValue)  {
+    // Get a reference to the list in the tree
+    taskList = document.querySelector("#busylist");
+    // Create the li element and set priority    
+    newli = document.createElement('li');
+    newli.className = priorityValue;
+    // Create the checkbox
+    newcb = document.createElement('input');
+    newcb.type = 'checkbox';
+    newcb.onclick = doneTask;
+    // Create the text Node
+    t = document.createTextNode(taskText);
+    // Plug our new elements into  the tree.
+    newli.appendChild(newcb);
+    newli.appendChild(t);
+    taskList.appendChild(newli);
+    
 }
 
 // Called when the add button is added to create a new task.
@@ -55,18 +71,7 @@ addTask = function() {
     taskList = document.querySelector("#busylist");
     priorityValue = document.querySelector("#priority").value;
     taskText = task.value;
-    //
-    newli = document.createElement('li');
-    newli.className = priorityValue;
-    newcb = document.createElement('input');
-    newcb.type = 'checkbox';
-    newcb.onclick = doneTask;
-    newli.appendChild(newcb);
-    t = document.createTextNode(taskText);
-    newli.appendChild(t);
-    taskList.appendChild(newli);
-    //
-    // erase the what we just typed in
+    insertTaskInTree(taskText,priorityValue);
     task.value = "";
     // save everything to local storage.
     localSave()
