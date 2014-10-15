@@ -18,7 +18,9 @@ doneTask = function() {
 // a task is checked or unchecked.  It makes sure that localstore
 // is up to date.
 localSave = function() {
-    var res = []
+    var high = [];
+    var med = [];
+    var low = [];
     var i;
     // loop over all of the li's we have created and add them
     // to a list, unless they are checked (have done in their list of classes)
@@ -26,21 +28,41 @@ localSave = function() {
     for(i=0; i < allEntries.length; i++) {
         // if the task is not checked off
         if (! allEntries[i].classList.contains("done") ) {
-            res.push(allEntries[i].innerText);
+            if (allEntries[i].classList.contains("High")) {
+                high.push(allEntries[i].innerText);
+            } else {
+                if (allEntries[i].classList.contains("Medium")) {
+                    med.push(allEntries[i].innerText);
+                } else {
+                    low.push(allEntries[i].innerText);
+                }
+            }
         }
     }
     // Convert the array to a string and save it in localstore
-    localStorage.setItem("todoDatabase",JSON.stringify(res))
+    // 
+    localStorage.setItem("todoDatabaseHigh",JSON.stringify(high))
+    localStorage.setItem("todoDatabaseMed",JSON.stringify(med))
+    localStorage.setItem("todoDatabaseLow",JSON.stringify(low))        
 }
 
 
 // Called from window.onload  -- see the end of the html file
 //
 restoreTasks = function() {
-  allTasks = JSON.parse(localStorage.getItem('todoDatabase'))
-  for(i = 0; i < allTasks.length; i++) {
-      insertTaskInTree(allTasks[i],"Medium");
-  }
+    // Get the three task lists
+    highTasks = JSON.parse(localStorage.getItem('todoDatabaseHigh'))
+    medTasks = JSON.parse(localStorage.getItem('todoDatabaseMed'))
+    lowTasks = JSON.parse(localStorage.getItem('todoDatabaseLow'))    
+    for(i = 0; i < highTasks.length; i++) {
+        insertTaskInTree(highTasks[i],"High");
+    }
+    for(i = 0; i < medTasks.length; i++) {
+        insertTaskInTree(medTasks[i],"Medium");
+    }
+    for(i = 0; i < lowTasks.length; i++) {
+        insertTaskInTree(lowTasks[i],"Low");
+    }
 }
 
 
