@@ -106,41 +106,13 @@ Homework
 --------
 
 You will have at least weekly homework assignments, sometimes more
-frequently when they are easier.
-
-Mashups
-
-The final mashup will be a substantial part of your grade. You will
-need to design and implement a mashup, then you’ll present a demo of it
-to the class when it is all done. Many of today’s successful web
-businesses started out as simple mashups. If you desire you can work
-with one other person on the mid-term.
-
--   Create a web page/pages that utilize one or more Web APIs
-
--   Built with Javascript, CSS, and HTML
-
--   Examples of available APIs
-
--   Google Documents, Maps, Calendar, etc.
-
--   Twitter, Facebook
-
--   Amazon, Evernote, Dropbox, RTM, tweedledo
-
--   Movies, Music, Books, ...
-
--   1000’s of others
-
--   Combine one or more of these web services to create your own cool
-    service
+frequently when they are easier.   I will often ask you to complete something that we started working on in class by the beginning of the next class.  This type of assignment counts toward your class participation grade.
 
 
 Grading
 -------
 
-    30%   Final Mashup
-    30%   Homework Assignments
+    60%   Homework Assignments
     30%   Weekly Quizzes
     10%   Class participation
 
