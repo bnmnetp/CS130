@@ -29,8 +29,8 @@ help you, so stop in. Mornings are open and I’m usually around.
 Text Book
 =========
 
-I am writing a set of class notes/text book material for this course.  It
-will be provided for you on the class web site.
+I have written a set of class notes and exercise in the form of an online textbook.  You can find a link to the textbook on the course page.
+
 
 Goals
 =====
@@ -75,17 +75,17 @@ Course Outline
 
     2.  The Document Object Model (DOM)
 
-    3.  Closures
+    3.  Conditionals
+    
+    4.  Loops
+    
+    5.  Javascript Helper Objects: Arrays and localStorage
 
-    4.  Prototypes
 
-    5.  AJAX
+Getting Help
+============
 
-    6.  JSON
-
-    7.  jQuery
-
-5.  Mashups
+The best way for you to get help is to contact me by stopping in my office.  The second best is for you to email me your question, and your code.  The answers to many of your questions may also be in the textbook, but I realize that you may not be following everything in the text, and so some additional explanation might be useful.  What about googling for some help?  I would strongly encourage you to NOT google for an answer.  Many of the answers you might find by googling will lead you down a bad path.  Its not that they are wrong it is just that many of the answers you are likely to find are meant for programmers with much more experience.  The exeption to this is [w3schools](http://www.w3schools.com).  The answers on w3schools are going to be short, to the point, and good for beginners.  So, if you want to be efficient with your time, I recommend you stick to the resources I have mentioned here when you need help.
 
 
 Class Requirements: 
