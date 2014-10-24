@@ -3,6 +3,7 @@ layout: post
 title:  "Goals for Week of Sept 7"
 date:   2014-09-07 16:10:28
 categories: goals
+published: false
 ---
 
 The goals for this first full week of classes are as follows:

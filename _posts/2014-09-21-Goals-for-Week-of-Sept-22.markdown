@@ -3,6 +3,7 @@ layout: post
 title:  "Goals for Week of Sept 22"
 date:   2014-09-21 07:34:53.597111
 categories:
+published: false
 ---
 
 ## Monday

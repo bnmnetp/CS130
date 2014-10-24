@@ -3,6 +3,7 @@ layout: post
 title:  "Goals for Week of Oct 13"
 date:   2014-10-12 19:46:31.501465
 categories:
+published: false
 ---
 
 ### Monday
