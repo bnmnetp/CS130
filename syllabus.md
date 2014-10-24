@@ -22,7 +22,7 @@ Piazza | https://piazza.com/luther/fall2014/cs130
 Office Hours
 ============
 
-Monday Wednesday, Friday: 9:30 -- 10:30, 2:00 -- 3:00 <br>
+Monday Wednesday, Friday: 9:30 -- 10:30, 1:00 -- 2:30 <br>
 Other times by appointment, drop-in, or virtual. Really! I’m here to
 help you, so stop in. Mornings are open and I’m usually around.
 
