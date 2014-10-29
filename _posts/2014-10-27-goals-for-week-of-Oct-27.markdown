@@ -21,4 +21,7 @@ The goals for this first full week of classes are as follows:
 
 ### Friday
 
+* Read the secton on [publishing in the cloud](http://interactivepython.org/runestone/static/webfundamentals/Cloud/cloudintro.html) 
 * Publishing in the cloud
+* set up github account (please use your norsekey)
+* verify email address with github
