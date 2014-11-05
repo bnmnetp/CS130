@@ -23,6 +23,7 @@ published: true
   * Some items could be in your cart, these items should have a line through them.
   * for bonus points, see if you can change the style of the list to display a checkmark when an item is in your cart.
   * Save your file as ``shopping.html``  Your style rules should be in ``shop.css``
+  * Make a link ``<a href="shopping.html">shopping</a>``  in your index.html file, so that I can find your shopping list easily.
   * Hint:  Don't be afraid to use [w3schools.com](http://www.w3schools.com) as an additional reference.
 
 
