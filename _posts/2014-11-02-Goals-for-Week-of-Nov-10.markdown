@@ -9,14 +9,13 @@ published: true
 ### Monday
 
 * CSS Box Model
-* Positioning
-* 
+* the display property
 
 ### Wednesday
 
-* Positioning part 2
-* Full page layout
-
+* Floating
+* Positioning part 1
+* Exercises 3 and 4 at the end of the CSS Chapter
 
 
 ### Friday
