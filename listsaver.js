@@ -16,11 +16,6 @@ restoreList = function(savelist,donefunc) {
   allTasks = JSON.parse(localStorage.getItem('todoDatabase'))
   taskList = document.querySelector("#"+savelist);
   for(i = 0; i < allTasks.length; i++) {
-      // Add your code here to recreate the task list
-      // note that allTasks[i] will contain the text
-      // for the next task you want to add to your HTML
-      // list.  -- Note also that this is very similar to what
-      // is done in the addTask function.
       taskText = allTasks[i].text;
       priorityValue = allTasks[i].priority;
       newli = document.createElement('li');
