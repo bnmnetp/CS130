@@ -12,7 +12,7 @@ localSave = function(saveList) {
     localStorage.setItem("todoDatabase",JSON.stringify(res))
 }
 
-restoreList = function(savelist) {
+restoreList = function(savelist,donefunc) {
   allTasks = JSON.parse(localStorage.getItem('todoDatabase'))
   taskList = document.querySelector("#"+savelist);
   for(i = 0; i < allTasks.length; i++) {
@@ -30,7 +30,7 @@ restoreList = function(savelist) {
       }
       newcb = document.createElement('input');
       newcb.type = 'checkbox';
-      newcb.onclick = doneTask;
+      newcb.onclick = donefunc;
       newli.appendChild(newcb);
       t = document.createTextNode(taskText);
       newli.appendChild(t);
