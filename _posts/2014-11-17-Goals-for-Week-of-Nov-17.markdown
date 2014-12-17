@@ -14,11 +14,11 @@ published: false
   * pages must be linked
   * all pages must use same external CSS file
   * include at least one image of your own. Can link to flikr or whatever external image source you like
+* Introducing Input Elements
 * Another example -- Dropdown menu
 
 ## Wednesday
 
-* Introducing Input Elements
 * Quiz 2
 
 ## Friday
