@@ -20,8 +20,16 @@ restoreList = function(savelist,donefunc) {
       priorityValue = allTasks[i].priority;
       newli = document.createElement('li');
       console.log(priorityValue)
-      for(j = 0; j < priorityValue.length; j++) {
-          newli.classList.add(priorityValue[j]);
+      if (priorityValue.length !== undefined) {
+          for(j = 0; j < priorityValue.length; j++) {
+              newli.classList.add(priorityValue[j]);
+          }
+      } else {
+          for (var key in priorityValue) {
+              if (priorityValue.hasOwnProperty(key)) {
+                  newli.classList.add(priorityValue[key]);
+              }
+          }
       }
       newcb = document.createElement('input');
       newcb.type = 'checkbox';
